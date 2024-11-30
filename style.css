@@ -1,0 +1,134 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #a8c0ff, #fbc2eb);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Containers */
+  #main-container {
+    width: 90%;
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  /* Auth Section */
+  #auth-section {
+    padding: 30px;
+  }
+  
+  .auth-forms {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  form {
+    width: 45%;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #6c63ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: #5754d1;
+  }
+  
+  /* App Section */
+  .hidden {
+    display: none;
+  }
+  
+  #mood-tracker, #chatbox, #resources {
+    padding: 20px;
+  }
+  
+  .mood-button {
+    background: #fbd786;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .mood-button:hover {
+    transform: scale(1.1);
+  }
+  
+  #mood-feedback {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  #chatbox #chat-window {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow-y: scroll;
+    background: #f4f4f4;
+  }
+  
+  #chatbox input {
+    width: 75%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #chatbox button {
+    padding: 10px 20px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Self-Help Resources */
+  #resources ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #resources ul li a {
+    text-decoration: none;
+    color: #6c63ff;
+    font-weight: bold;
+  }
+  
+  #resources ul li a:hover {
+    text-decoration: underline;
+  }
+  
